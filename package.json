@@ -1,0 +1,26 @@
+{
+  "name": "kafka-practices-node",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This project is for practice with Apache Kafka and NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start:producer": "node producer/index.js",
+    "start:consumer": "node consumer/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acostadu/kafka-practices-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acostadu/kafka-practices-node/issues"
+  },
+  "homepage": "https://github.com/acostadu/kafka-practices-node#readme",
+  "dependencies": {
+    "kafka-node": "^5.0.0",
+    "avsc": "^5.6.2",
+    "node-rdkafka": "^2.10.1"
+  }
+}
